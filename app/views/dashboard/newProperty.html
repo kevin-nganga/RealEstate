@@ -1,0 +1,64 @@
+<section>
+      <form class="newPropertyForm" role="form" name="newPropertyForm">
+        <div class="row">
+          <div class="form-group col-sm-6">
+            <label for="propertyName">Property Name</label>
+            <input type="text" name="propertyName" class="form-control" id="propertyName">
+          </div>
+          <div class="form-group col-sm-6">
+            <label for="propertyType">Property type</label>
+            <select id="propertyType" name="propertyType" class="form-control">
+              <option selected></option>
+              <option>Rental Apartment</option>
+              <option disabled>Resale</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="form-group col-sm-4">
+            <label for="location">Location</label>
+            <input type="text" name="location" class="form-control" id="location">
+          </div>
+          <div class="form-group col-sm-4">
+            <label for="address">Address</label>
+            <input type="text" name="address" class="form-control" id="address">
+          </div>
+          <div class="form-group col-sm-4">
+            <label for="size">Size</label>
+            <select id="size" name="size" class="form-control">
+              <option selected></option>
+              <option>Bedsitter</option>
+              <option>1 Bedroom</option>
+              <option>2 Bedroom</option>
+              <option>3 Bedroom</option>
+            </select>
+          </div>
+        </div>
+        <hr>
+        <span class="level2">Apartment Amenities</span>
+        <div id="additions" class="row">
+          <p>Select where applicable</p>
+          <div class="features">
+            <label class="checkbox-inline">
+              <input type="checkbox" id="security" value="option1"> 24 hour Security
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" id="parking" value="option2"> Parking space
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" id="cable" value="option3"> Cable Ready
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" id="internet" value="option3"> Internet Connectivity
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" id="garbage" value="option3"> Garbage Collection
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" id="balcony" value="option3"> Private Balcony or Patio
+            </label>
+          </div>
+        </div>
+      </form>
+</section>

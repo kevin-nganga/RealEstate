@@ -1,0 +1,79 @@
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <strong>Email: </strong>support@supportinfo.com
+        &nbsp;&nbsp;
+        <strong>Support: </strong>+00-000-000-00
+      </div>
+
+    </div>
+  </div>
+</header>
+<!-- HEADER END-->
+<div class="navbar navbar-inverse set-radius-zero">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+
+        <img src="../../../../images/logo.png" />
+      </a>
+
+    </div>
+
+    <div class="left-div">
+      <div class="user-settings-wrapper">
+        <ul class="nav">
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+              <span class="glyphicon glyphicon-user" style="font-size: 25px;"></span>
+            </a>
+            <div class="dropdown-menu dropdown-settings">
+              <div class="media">
+                <a class="media-left" href="#">
+                  <img src="../../../../images/64-64.jpg" alt="" class="img-rounded" />
+                </a>
+                <div class="media-body">
+                  <h4 class="media-heading">Jane Deo</h4>
+                  <h5>Web Developer</h5>
+                </div>
+              </div>
+              <hr />
+              <h5><strong>Personal Bio : </strong></h5>
+              Anim pariatur cliche reprehen derit.
+              <hr />
+              <a ui-sref="profile" class="ghost-btn btn btn-sm">Full Profile</a>&nbsp;
+              <a ui-sref="login" class="btn btn-danger btn-sm">Logout</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- LOGO HEADER END-->
+<section class="menu-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="navbar-collapse collapse ">
+          <ul id="menu-top" class="nav navbar-nav navbar-right">
+            <li ng-class="{active: $state.includes('properties')}"><a ui-sref="properties">Dashboard</a></li>
+            <li ng-class="{active: $state.includes('newProperty')}"><a ui-sref="newProperty">New Property</a></li>
+            <li ng-class="{active: $state.includes('#')}"><a ui-sref="#">Data Tables</a></li>
+            <li ng-class="{active: $state.includes('#')}"><a ui-sref="#">Forms</a></li>
+            <li ng-class="{active: $state.includes('#')}"><a ui-sref="#">Login Page</a></li>
+            <li ng-class="{active: $state.includes('#')}"><a ui-sref="#">Blank Page</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- MENU SECTION END-->

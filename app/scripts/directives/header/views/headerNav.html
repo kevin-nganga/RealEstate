@@ -1,0 +1,32 @@
+<script>
+  $('#menuNav').hide();
+
+  $( "#toggleIcon" ).click(function() {
+    $( "#menuNav" ).toggle( "slow", function() {
+      // Animation complete.
+    });
+  });
+</script>
+
+<menu id="menuNav"></menu>
+
+<!--header-->
+<div class="header">
+  <div class="container">
+      <!--logo-->
+      <div class="logo">
+          <span class="title">REAL</span>
+          <span id="toggleIcon" title="Show Menu"><i class="glyphicon glyphicon-menu-hamburger"></i> </span>
+      </div>
+      <!--//logo-->
+      <div class="top-nav">
+        <ul class="right-icons">
+          <li><a ui-sref="login"><i class="glyphicon glyphicon-log-in"> </i>Login</a></li>
+        </ul>
+      </div>
+      <div class="clearfix"> </div>
+  </div>
+</div>
+<!--//-->
+
+
